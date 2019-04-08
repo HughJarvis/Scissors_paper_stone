@@ -14,9 +14,9 @@ class ScissorsPaperStone
       return "Stone blunts scissors - stone wins!"
     elsif (@hand1 == 'stone' && @hand2 == 'paper') ||
           (@hand2 == 'stone' && @hand1 == 'paper')
-      return "Paper wraps stone - paper wins"
+      return "Paper wraps stone - paper wins!"
     elsif @hand1 == @hand2
-      return "Hands are the same, try again!"
+      return "Hands are the same, try again."
     else
       return "You can only choose scissors, paper or stone, try again"
     end
